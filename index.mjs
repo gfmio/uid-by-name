@@ -1,7 +1,7 @@
 import shell from "shelljs";
 
 /** Returns the UID for this username, if it exists, or else undefined */
-export default function getUid(username) {
+export default function getUidByName(username) {
   const result = shell.exec(`id -u ${username}`, { silent: true });
 
   if (result.code !== 0) {
