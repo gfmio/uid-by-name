@@ -1,0 +1,21 @@
+{
+  "name": "uid-by-name",
+  "version": "1.0.0",
+  "description": "Get a user's UID by name",
+  "repository": "https://github.com/gfmio/uid-by-name",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "bin": "cli.js",
+  "keywords": [
+    "uid",
+    "unix",
+    "linux",
+    "cli"
+  ],
+  "dependencies": {
+    "@types/shelljs": "^0.8.7",
+    "shelljs": "^0.8.3"
+  }
+}
